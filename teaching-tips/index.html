@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Teaching Tips</title>
+    <meta name="author" content="Pauline Barmby" />
+    <!-- meta name="audio" content="voiceover.ogg" / -->
+    <!-- meta name="timings" content="timings.json" / -->
+
+    <script src="../css/deckjs-js/deckjs-custom.js"></script>
+    <script>includedeck(["../css/slideshow.css"],{});</script>
+    <style>
+      .slide.title-slide h1 {padding-bottom: 0;} /* title is long... */
+      a {text-decoration: underline;} /* make links clearer */
+      pre {font-size: 75%;} /* make code blocks smaller */
+      p.subhead {font-style: italic; text-align: center;}
+    </style>
+  </head>
+  <body>
+    <div class="deck-container">
+
+      <section class="slide title-slide" data-container-class="no-status">
+        <h1 class="var-title"></h1>
+        <p>February 2015</p>
+        <img class="logo" src="../img/software-carpentry-banner.png" alt="Software Carpentry Logo" />
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Who Teaches and Why?</h2>
+	<ul>
+	  <li>
+	    Our instructors are scientists in many career stages, from many fields
+	  </li>
+	  <li>
+	    Most are not computer scientists or software engineers
+	  </li>
+	  <li>
+	    "Conscious competence": still new enough to relate to beginners
+	  </li>
+	  <li>
+	    Many follow learner &rarr; helper &rarr; instructor path
+	  </li>
+	</ul>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Motivation</h2>
+	<p class="subhead">
+	  Motivation is the best predictor of learning.
+	</p>
+	<ol>
+	  <li>
+	    Explain how these skills help your own research
+	  </li>
+	  <li>
+	    Have learners sign up in groups
+	  </li>
+	  <li>
+	    Follow learners' questions off the lesson
+	  </li>
+	  <li>
+	    Have helpers give individual assistance
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Demotivation</h2>
+	<p class="subhead">
+	  Avoid crushing their enthusiasm.
+	</p>
+	<ol>
+	  <li>
+	    Enforce the <a href="http://software-carpentry.org/conduct.html">code of conduct</a>.
+	  </li>
+	  <li>
+	    Avoid the passive dismissive "just".
+	  </li>
+	  <li>
+	    Avoid cognitive overload.
+	  </li>
+	  <li>
+	    If a problem can't be fixed quickly,
+	    have the person pair up.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+	
+      <section class="slide">
+	<h2>Active Learning</h2>
+	<p class="subhead">
+	  Active learning beats passive observation.
+	</p>
+	<ol>
+	  <li>
+	    Have learners type along as you teach.
+	  </li>
+	  <li>
+	    Don't go more than 10 minutes without hands-on work.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Feedback</h2>
+	<p class="subhead">
+	  Everyone needs to know where they are.
+	</p>
+	<ol>
+	  <li>
+	    Get real-time feedback ("OK/not OK") via colored sticky notes.
+	  </li>
+	  <li>
+	    Get short written feedback ("minute cards") at every break.
+	  </li>
+	  <li>
+	    <em>Respond to the feedback</em>
+	    even (especially) if it means teaching less.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Live Coding</h2>
+	<p class="subhead">
+	  No slides.
+	</p>
+	<ol>
+	  <li>
+	    Start with a blank window &mdash; just like they will.
+	  </li>
+	  <li>
+	    Having to type stops you from racing ahead.
+	  </li>
+	  <li>
+	    Seeing you make mistakes gives them permission to.
+	  </li>
+	  <li>
+	    Seeing you diagnose and fix mistakes shows them how to.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Pacing</h2>
+	<p class="subhead">
+	  People can't concentrate for more than an hour.
+	</p>
+	<ul>
+	  <li>
+	    Each major topic is 4 or 5 half-hour chunks over half a day.
+	  </li>
+	  <li>
+	    Get them out of their seats at each break.
+	  </li>
+	</ul>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <section class="slide">
+	<h2>Helpers</h2>
+	<p class="subhead">
+	  Never teach alone.
+	</p>
+	<ol>
+	  <li>
+	    Former learners / local volunteers / the other instructor(s).
+	  </li>
+	  <li>
+	    Help learners with setup and challenges, take notes on Etherpad, ...
+	  </li>
+	  <li>
+	    Provide feedback to instructors.
+	  </li>
+	</ul>
+	<aside class="notes">
+	</aside>
+      </section>
+	
+       <section class="slide">
+	<h2>Collaboration</h2>
+	<p class="subhead">
+	  Never learn alone.
+	</p>
+	<ol>
+	  <li>
+	    Pair early, pair often.
+	  </li>
+	  <li>
+	    Use Etherpad for note-taking and chat.
+	  </li>
+	  <li>
+	    Use Git if/when learners are comfortable with it.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+
+
+      <section class="slide">
+	<h2>Assessment</h2>
+	<p class="subhead">
+	  Know your audience.
+	</p>
+	<ol>
+	  <li>
+	    Pre-workshop survey drives workshop planning.
+	  </li>
+	  <li>
+	    Challenges during workshops for formative assessment.
+	  </li>
+	  <li>
+	    Post-workshop survey of learners...
+	  </li>
+	  <li>
+	    ...and debriefing for instructors.
+	  </li>
+	</ol>
+	<aside class="notes">
+	</aside>
+      </section>
+	
+      <section class="slide" data-container-class="no-status">
+	<h2>Learn More</h2>
+	<div align="center">
+	  <p>
+	    Website: <a href="http://software-carpentry.org">http://software-carpentry.org</a>
+	  </p>
+	  <p>
+	    Contact: <a href="mailto:admin@software-carpentry.org">admin@software-carpentry.org</a>
+	  </p>
+	  <p><em>Thank you for listening</em></p>
+          <p><img src="../img/software-carpentry-banner.png" alt="Software Carpentry Logo" /></p>
+	</div>
+	<aside class="notes">
+	</aside>
+      </section>
+
+      <a class="deck-prev-link">&larr;</span><a class="deck-next-link">&rarr;</a>
+      <p class="deck-status deck-progress-10"><span class="deck-status-current"></span> / <span class="deck-status-total"></span></p>
+
+    </div>
+  </body>
+</html>
