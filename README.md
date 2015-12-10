@@ -1,2 +1,2 @@
-# dreamtalk
-xwMOOC 주관 발표 자료 - 과학기술 드림톡 外
+# think-stat
+통계적 사고 공개 워크샵
