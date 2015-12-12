@@ -36,6 +36,7 @@ subtitle: 기존 파워포인트 발표자료를 웹으로 전환하여 공유�
     - [What is Cloud Vision API?](https://www.youtube.com/watch?v=eve8DkkVdhI)
 - [로봇도 취준생인가요?! 일자리를 빼앗는 로봇에 대한 우리의 자세](http://blog.naver.com/sw_maestro/220558004620)
 - [코리아드론레이싱챔피언쉽](https://www.youtube.com/watch?v=vVLGnl4OCYU)
+- [하늘 나는 '아이언맨 수트' 현실로 주문 쇄도, SBS 뉴스](http://news.sbs.co.kr/news/endPage.do?news_id=N1003307401)
 
 > ### xwMOOC 오픈 프로젝트 {.callout}
 > [$100 달러 오픈 컴퓨터 A-Z](http://computer.xwmooc.org) : '15년 개발 및 공개 완료  
