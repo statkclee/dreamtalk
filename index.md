@@ -13,6 +13,11 @@ subtitle: 기존 파워포인트 발표자료를 웹으로 전환하여 공유�
 - [한국과학창의재단](https://www.kofac.re.kr/)
 - [과학기술인재 진로지원센터](http://www.sciencecareer.kr/)
 
+> ### 4차 산업혁명 - 미래 일자리와 인공지능 {.prereq}
+> | EBS 조용한 혁명 (산업혁명)  | 아리랑 TV 미래 일자리 |
+> |:------------------------------------------------------------------:|:------------------------------------------------------------------:|
+> | <iframe width="350" height="260" src="https://www.youtube.com/embed/t346si4gy_M" frameborder="0" allowfullscreen></iframe> | <iframe width="350" height="260" src="https://www.youtube.com/embed/VJnAITWTBHw" frameborder="0" allowfullscreen></iframe> |
+
 #### 2016년
 > #### [강원 속초 속초고등학교(2/11)](http://www.sokcho.hs.kr/)
 
